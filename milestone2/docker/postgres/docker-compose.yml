@@ -1,0 +1,48 @@
+services:
+  pgdatabase:
+    image: postgres:13
+    container_name: pgdatabase
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_PASSWORD: root
+      POSTGRES_DB: data_engineering
+    ports:
+      - "5432:5432"
+    volumes:
+      - ./postgres-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U root"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: root@root.com
+      PGADMIN_DEFAULT_PASSWORD: root
+    ports:
+      - "5050:80"
+
+    volumes:
+      - ./pgadmin-data:/var/lib/pgadmin
+    depends_on:
+      pgdatabase:
+        condition: service_healthy
+    restart: always
+
+  adminer:
+    image: adminer
+    container_name: adminer
+    restart: always
+    ports:
+      - 5051:8080
+    depends_on:
+      pgdatabase:
+        condition: service_healthy
+
+networks:
+  default:
+    name: data_engineering
+    external: true
