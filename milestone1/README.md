@@ -7,7 +7,7 @@ Milestone 1 focuses on cleaning, transforming, and analyzing a fintech loan data
 
 ## 📁 **Project Structure**
 - [milestone1_data_preprocessing.ipynb](milestone1_data_preprocessing.ipynb) - Jupyter Notebook for preprocessing  
-- [lookup_tables/](lookup_tables/) - Stores lookup tables for cleaned and transformed data  
+- [lookup_tables/](lookup_tables/) - Stores lookup tables for cleaned and transformed data after running (.ipynb) file 
 - [data/](data/) - Raw datasets  
 - [README.md](README.md) - Project documentation 
 
