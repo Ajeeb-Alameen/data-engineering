@@ -202,7 +202,7 @@ To visualize the data in Superset, follow these steps:
 
 🔹 **Note:** Superset may take a few minutes to initialize. If the UI does not load immediately, wait and refresh.
 
-📊 **Dashboard Availability**: The Superset dashboard was developed locally and is not included in this setup by default. However, I have provided a PDF version of the [fintech_dashboard.pdf](data-engineering/milestone2/fintech_dashboard.pdf) for reference.
+📊 **Dashboard Availability**: The Superset dashboard was developed locally and is not included in this setup by default. However, I have provided a PDF version of the [fintech_dashboard.pdf](fintech_dashboard.pdf) for reference.
 To recreate the dashboard, follow the "Creating a New Superset Dashboard from Scratch" section.
 
 #### 📊 Creating a New Superset Dashboard from Scratch
