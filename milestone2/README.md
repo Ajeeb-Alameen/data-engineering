@@ -50,7 +50,7 @@ Milestone 2 automates the ETL pipeline established in Milestone 1, ensuring a sc
 ##  Prerequisites
 
 Before running the project, make sure you have:
-- **[Docker](https://www.docker.com/)** installed
+- **[Docker](https://www.docker.com/)** installed and **running**
 
 **Set up your environment:** Install dependencies using:
    ```bash
@@ -63,7 +63,12 @@ Before running the project, make sure you have:
 
 ⏳ **Startup Delay Notice:** Some services (Airflow, Superset, and PostgreSQL) **may take 1-2 minutes to fully initialize**. If a web interface is not immediately accessible, **wait and refresh the page**.
 
-🔹 To start all necessary services, run the following commands in order:
+**🔹 Steps to Start the Project**  
+Before running these commands, ensure:  
+✅ **Docker** is installed and **running**  
+✅ You are inside the `milestone2/` folder  
+
+Run the following commands in order:
 
 ### 1️⃣ Create the Docker Network
 
