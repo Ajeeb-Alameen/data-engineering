@@ -61,10 +61,26 @@ Each milestone has its own **README** with setup instructions. Detailed requirem
 - **Docker** - Containerization
 
 ---
+## 📥 How to Download & Use This Project
 
-## 📦 Requirements
+### **1️⃣ Clone the Repository (Recommended)**
+If you have Git installed, clone the repository using:
+```bash
+git clone https://github.com/Ajeeb-Alameen/data-engineering.git
+```
+Then, navigate to the project folder:
+```bash
+cd data-engineering
+```
 
-To install dependencies, run:
+### **2️⃣ Download as a ZIP File (Alternative Method)**
+1. Go to the **GitHub repository**.
+2. Click on the **"Code"** button.
+3. Select **"Download ZIP"**.
+4. Extract the ZIP file on your local machine.
+
+### **3️⃣ Install Dependencies**
+Ensure you have **Python** and **Docker** installed. Then, install Python dependencies:
 
 ```bash
 pip install -r requirements.txt
