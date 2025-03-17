@@ -26,6 +26,7 @@ This project, developed as part of the **Data Engineering** course at **the Germ
 - [requirements.txt](requirements.txt) - Dependencies of the entire project
 - **[milestone1/](milestone1/)** - Notebooks and scripts for data preprocessing
   - **[data/](milestone1/data/)** - Raw data used in preprocessing
+  - **[lookup_tables/](milestone1/lookup_tables/)** - Directory for processed data CSV files.
   - [milestone1_data_preprocessing.py](milestone1\milestone1_data_preprocessing.ipynb) - Preprocessing script
   - [milestone1_description.pdf](milestone1/milestone1_description.pdf) - Milestone 1 requirements
   - [dataset_description.pdf](milestone1/dataset_description.pdf) - Dataset documentation
