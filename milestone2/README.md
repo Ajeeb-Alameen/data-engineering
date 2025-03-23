@@ -30,7 +30,7 @@ Milestone 2 automates the ETL pipeline established in Milestone 1, ensuring a sc
 
 - [README.md](README.md) - Milestone 2 documentation
 - [milestone2_description.pdf](milestone2_description.pdf) - Milestone 2 requirements
-- [dag_graph_screenshot.png](dag_graph_screenshot.png) - DAG workflow screenshot
+- [dag_graph_screenshot.png](dag_graph_screenshot.PNG) - DAG workflow screenshot
 - [fintech_dashboard.pdf](fintech_dashboard.pdf) - Superset Dashboard report
 - **[docker/](docker/)** - Containerized services setup
    - **[airflow/](docker/airflow/)** - Airflow setup
