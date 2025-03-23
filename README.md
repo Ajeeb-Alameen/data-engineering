@@ -34,7 +34,7 @@ This project, developed as part of the **Data Engineering** course at **the Germ
 - **[milestone2/](milestone2/)** - Airflow DAGs, SQL scripts, and Superset setup
   - [README.md](milestone2/README.md) - Milestone 2 documentation
   - [milestone2_description.pdf](milestone2/milestone2_description.pdf) - Milestone 2 requirements
-  - [dag_graph_screenshot.png](milestone2/dag_graph_screenshot.png) - DAG workflow screenshot
+  - [dag_graph_screenshot.png](milestone2/dag_graph_screenshot.PNG) - DAG workflow screenshot
   - [fintech_dashboard.pdf](milestone2/fintech_dashboard.pdf) - Superset Dashboard report
   - **[docker/](milestone2/docker/)** - Containerized services setup
     - **[airflow/](milestone2/docker/airflow/)** - Airflow setup
